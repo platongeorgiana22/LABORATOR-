@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+  
+  <head>
+  
+ <title> PLATON GEORGIANA ROXANA </title>
+ <style>
+  h1 { text-align: center;
+	   font-style :	CourierNew;
+	   ul.a { list-style-type: circle;
+}}
+h6 { text-align: center;
+	   font-style :	CourierNew;
+	   ul.a { list-style-type: circle;
+	   
+}}
+div {
+  border: 3px solid #4CAF50;
+  padding: 5px;
+}
+.img { 
+  float: left;
+}
+a:link, a:visited {
+  background-color: #009999;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: lightseagreen;
+}
+ * { background-image:url(POZA.jpeg);
+     background-repeat:no-repeat;
+     background-size:cover;
+}
+ h3 {
+  font-size: 30px;
+}
+ li { 
+     font-size: 15px;
+ }
+ 
+
+
+</style >
+<script>
+function myFunction()
+{document.getElementById("nume").innerHTML="STUDENT POLI";
+document.getElementById("IMG").src="lab.jpg";
+document.getElementById("TABEL").rows[0].cells[0].innerHTML="PASIUNI";
+document.getElementById("TABEL").rows[0].cells[1].innerHTML="APTITUDINI";
+document.getElementById("TABEL").rows[0].cells[2].innerHTML="REALIZARI";
+document.getElementById("TABEL").rows[1].cells[0].innerHTML="GATIT";
+document.getElementById("TABEL").rows[1].cells[1].innerHTML="CALM";
+document.getElementById("TABEL").rows[1].cells[2].innerHTML="ASOCIATIA 'JOYCAMPS' ";
+document.getElementById("TABEL").rows[2].cells[0].innerHTML="STATUL CU COPII";
+document.getElementById("TABEL").rows[2].cells[1].innerHTML="RABDAREA";
+document.getElementById("TABEL").rows[2].cells[2].innerHTML="ANSAMBLU DE DANS POPULAR ";
+document.getElementById("TABEL").rows[3].cells[0].innerHTML="DORMITUL EXCESIV ";
+document.getElementById("TABEL").rows[3].cells[1].innerHTML="AMBITIA ";
+document.getElementById("TABEL").rows[3].cells[2].innerHTML="VORBITUL IN PUBLIC";}
+
+
+function varsta()
+{
+	var today=new Date();
+	var an=today.getFullYear()-parseInt(document.getElementById("varsta").innerHTML);
+	document.getElementById("varsta").innerHTML=an;
+
+}
+</script>
+   </head>
+  <body>
+      <h1 id="nume"> PLATON GEORGIANA </h1>
+
+      <div>
+          <img id="IMG" class="img" src='poza.jpg' width="170" height="170">
+
+          <br>
+
+          <p> Adresa de e-mail: georgiplaton@yahoo.com </p>
+
+          <p>Nr de telefon : 0754xxxxxx </p>
+          <p>"EDUCAREA OMULUI A REPREZENTAT NASTEREA SOCIETATII."</p>
+          <p onmouseover="varsta()" id="varsta">18</p>
+          <button onclick="myFunction()">BUTON</button>
+          <br>
+
+      </div>
+      <h2 style=" color :tomato;"> DISCIPLINE DE INTERES : </h2>
+      <table id="TABEL" border="1" cellspacing="10" cellpadding="10" bgcolor="LightPink ">
+          <tr>
+              <th> DISCIPLINA </th>
+              <th> ANUL DE STUDIU </th>
+              <th> LINK </th>
+          </tr>
+          <tr>
+              <td> INFORMATICA APLICATA </td>
+              <td> ANUL 1 </td>
+              <td> https://etti.utcluj.ro </td>
+          </tr>
+
+          <tr>
+              <td> COMPONENTE SI CIRCUIOTE PASIVE </td>
+              <td> ANUL 1 </td>
+              <td> https://etti.utcluj.ro </td>
+          </tr>
+
+
+          <tr>
+              <td> FIZICA </td>
+              <td> ANUL 1 </td>
+              <td> https://etti.utcluj.ro </td>
+          </tr>
+      </table>
+      <h3 style="color:Tomato;"> HOBBY-URI </h3>
+      <ul class="a">
+          <li style=" color:coral;"> VOLUNTARIATUL </li>
+          <li style="color :crimson;"> INTERACTIUNEA CU COPII </li>
+          <li style=" color :aqua;"> SERIALE </li>
+          <br>
+          <br>
+          <a href=' AGENDA1.html'>
+              AGENDA COLEGII:
+          </a>
+  </body>
+
+
+
+
+</html>
+
